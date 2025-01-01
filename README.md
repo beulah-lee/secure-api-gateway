@@ -1,6 +1,6 @@
 # Secure API Gateway Project
 
-This project is a secure and scalable API gateway for routing and securing requests built with Spring Boot, featuring JWT authentication, rate limiting with Bucket4j, role-based access, and data encryption. Performance was optimized using Redis caching and sensitive data is securely encrypted using BCrypt.
+This project is a secure and scalable API gateway for routing and securing requests built with Spring Boot, featuring JWT authentication, rate limiting with Bucket4j, role-based access, and data encryption. Performance was optimized using Redis caching and sensitive data is securely encrypted using BCrypt. Unit test coverage was added using MockMvc and JUnit.
 
 ## Features
 
