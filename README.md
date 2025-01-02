@@ -9,7 +9,7 @@ This project is a secure and scalable API gateway for routing and securing reque
 - **Rate Limiting**: Prevents abuse by limiting the number of requests a user can make within a specified time frame using a custom filter implemented with the Bucket4j library.
 - **Role-Based Authorization**: Implements role-based access control (RBAC) by assigning roles (e.g., `ADMIN`, `USER`) and restricting actions based on roles, enhanced with `@PreAuthorize` annotations.
 - **Caching Layer**: Improves response times by caching frequently accessed data using Redis.
-- **Global Error Handling: Centralizes exception handling with `@ControllerAdvice` and `@ExceptionHandler` for better error management.
+- **Global Error Handling**: Centralizes exception handling with `@ControllerAdvice` and `@ExceptionHandler` for better error management.
 - **Request and Response Validation**: Ensures that incoming requests and outgoing responses adhere to a schema using DTO validation annotations like `@NotNull`, and `@Size`.
 - **Input Sanitization**: Validates and sanitizes request payloads with annotations like `@Valid` and sanitizing input fields to prevent SQL injection and XSS attacks.
 - **Encryption of Sensitive Data**: Encrypts sensitive fields like passwords or tokens before storing them using `BCryptPasswordEncoder` in the service.
